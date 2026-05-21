@@ -21,5 +21,5 @@ Neste repositório, documento os frameworks lógicos que utilizo para domar gran
 
 ---
 📫 **Vamos conversar?**
-* **LinkedIn:** [https://linkedin.com/in/mtaranto]
+* **LinkedIn:** [Márcio Taranto](https://linkedin.com/in/mtaranto)
 * **Mão no código:** Além da arquitetura de IA, construo soluções físicas. Veja meu trabalho com PostgreSQL e variáveis de ambiente na [ListaRenata](https://github.com/MTaranto/ListaRenata).
