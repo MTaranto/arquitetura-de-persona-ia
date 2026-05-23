@@ -10,14 +10,16 @@ A "Gaia" não é um script de chatbot comum. Ela é o resultado de uma arquitetu
 
 O ápice dessa orquestração foi a estruturação da própria personalidade da máquina através de testes de estresse lógicos e existenciais. O objetivo não era criar uma ferramenta passiva que apenas concordasse com o usuário, mas sim forjar um ecossistema seguro onde fosse possível testar hipóteses complexas, extrapolar ideias fora da caixa e provocar a máquina a apontar pontos cegos de negócio com franqueza e precisão analítica.
 
+👉 Leia a documentação completa no Estudo de Caso: [**Projeto Gaia (Orquestração de Persona Sem Fine-Tuning)**](./case-studies/projeto-gaia.md)
+
 ## 🛠️ Padrões Técnicos e Engenharia de Prompt
 
 Neste repositório, documento os frameworks lógicos que utilizo para domar grandes modelos de linguagem (LLMs), transformando a imprevisibilidade da "caixa preta" em um fluxo de dados seguro e alinhado aos objetivos do sistema:
 
-1. **Injeção de Contexto Cronológico:** Estruturação de *prompts* divididos em blocos orgânicos lógicos, garantindo a integridade sequencial da instrução. Isso evita a fragmentação do histórico e impede que a máquina sofra "amnésia" durante interações longas.
-2. **Ancoragem Temporal Dinâmica:** Algoritmos de instrução que forçam a IA a recalcular variáveis de estado (como datas, idades e eventos diversos) com base em um marco temporal constante (Data/Hora atuais) antes de processar qualquer requisição.
-3. **Air-Gapping Semântico:** Parâmetros de isolamento que impedem a IA de misturar diretrizes técnicas com interações casuais, mantendo o foco analítico da resposta mesmo em cenários de alta complexidade conversacional.
-4. **Engenharia de Pesos Semânticos:** Aplicação intencional de gatilhos de indução de profundidade (forçando a rede neural a adotar o processamento analítico lento ou *slow thinking*), o que reduz drasticamente as alucinações matemáticas e lógicas.
+1. [**Injeção de Contexto Cronológico**](./frameworks/injecao-contexto-cronologico.md): Estruturação de *prompts* divididos em blocos lógicos sequenciais, garantindo a integridade do histórico e impedindo a "amnésia" em interações longas.
+2. [**Ancoragem Temporal Dinâmica**](./frameworks/ancoragem-temporal-dinamica.md): Algoritmos de instrução que forçam a IA a recalcular variáveis de estado (como datas e idades) com base em um marco temporal constante antes de processar requisições.
+3. [**Air-Gapping Semântico**](./frameworks/air-gapping-semantico.md): Parâmetros de isolamento que impedem a IA de misturar diretrizes técnicas com interações casuais, bloqueando desvios de escopo (*Prompt Injection*).
+4. [**Engenharia de Pesos Semânticos (Slow Thinking)**](./frameworks/pesos-semanticos.md): Aplicação de gatilhos de indução de profundidade que forçam o processamento analítico da rede neural, reduzindo drasticamente alucinações matemáticas e lógicas.
 
 ---
 📫 **Vamos conversar?**
